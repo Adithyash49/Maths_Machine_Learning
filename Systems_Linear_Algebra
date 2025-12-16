@@ -1,1 +1,32 @@
+Systems of Linear Equations
 
+In general, the word array refers to an orderly arrangement or a large collection of things.
+Programming: A data structure that stores a fixed-size collection of elements (like numbers or words), usually of the same type.
+In math, an array is often synonymous with a matrix. A set of numbers or symbols arranged in a rectangular grid of rows and columns.
+
+
+System of Linear Equations: w_1 * x_1 ^(m)  + w_2 * x_2 ^(m) + ......  + b = y^(m)  ; W and B values are same
+
+ W.X +b = y
+
+Note Linear algebra is all about manipulating vectors and matrix to do powerful calculations.
+
+Non -singular equation: It has complete information
+Singular equation: It has redundant or contraditory equations
+
+
+System of equations
+System 1 : Complete, non-singular; Unique
+System 2 : Redundant, Singular; Infinite solutions
+System 3 : Contradictory,Parallel, Singular; No Solution
+
+Linear equations is represented as line when plotted in graph. 
+When you graph a linear equation with two variables (like $2x + 3y = 6$) on a flat piece of paper (a 2D plane), it forms a straight line.
+When you graph a linear equation with three variables (like $2x + 3y + 4z = 12$) in 3D space, it forms a flat, infinite sheet known as a plane.
+
+Constant do not matter for singularity.
+
+The determinant is essentially a diagnostic number for a matrix. Just as a doctor might check your temperature to see if you are healthy, a mathematician checks the determinant to see if a matrix is "healthy" (invertible) or "sick" (singular).
+The determinant tells you how much a matrix stretches or squishes space.
+
+Determinant of matrix (ad-bc)
