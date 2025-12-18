@@ -1,4 +1,4 @@
-Systems of Linear Equations
+Systems of Linear Equations ( Week 1)
 
 In general, the word array refers to an orderly arrangement or a large collection of things.
 Programming: A data structure that stores a fixed-size collection of elements (like numbers or words), usually of the same type.
@@ -76,10 +76,26 @@ Broadcasting, slicing, indexing
 Slicing gives you a sublist of elements that you specify from the array. 
 
  Note that a == a[:] == a[::]
+Remember that indexing of arrays in Python starts from zero,
 
  `np.empty()` outputs an uninitialized array, but `np.zeros()` outputs an initialized array of value zero.
+
+
+Representing system of equations as matrixes
+Use the NumPy linear algebra package to model systems of linear equations as matrices.
+Evaluate the determinant of the matrix and examine the relationship between matrix singularity and the number of solutions of the linear system.
 
 np.vstack() - stacks vertically
 np.hstack() - stacks horizontally
 np.hsplit() - splits an array into several smaller arrays
+
+
+System of Linear Equations
+A system of linear equations (or linear system) is a collection of one or more linear equations involving the same variables. 
+We can represent linear systems of equations as matrices.
+
+𝐴 is a matrix, as you've seen previously, where each row represents one equation in the system, and each column corresponds to the variables 𝑥1
+ and 𝑥2 . 𝑏 is a 1-D array of the free (right side) coefficients.
+
+Solving Systems of Linear Equations ( Week 2)
 
