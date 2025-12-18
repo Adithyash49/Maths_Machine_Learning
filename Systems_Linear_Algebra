@@ -29,6 +29,8 @@ Constant do not matter for singularity.
 The determinant is essentially a diagnostic number for a matrix. Just as a doctor might check your temperature to see if you are healthy, a mathematician checks the determinant to see if a matrix is "healthy" (invertible) or "sick" (singular).
 The determinant tells you how much a matrix stretches or squishes space.
 
+
+
 Determinant of matrix (ad-bc)
 
 NumPy is the main package for scientific computing in Python. 
@@ -113,5 +115,8 @@ There's a special relationship between the rank of a matrix and its solution spa
 
 
 Find rank by doing row echelon form of matrix..
+
+
+Gaussian elimination -Augmented matrix--solving system of equations
 
 
