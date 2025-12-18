@@ -99,3 +99,19 @@ We can represent linear systems of equations as matrices.
 
 Solving Systems of Linear Equations ( Week 2)
 
+Elimination emthod (Matrix reduction/Gaussian)
+
+Row operations preserve singularity.
+
+Remember that np.linalg.solve gives an error if there are no or infinitely many solutions. When using it, you will need to check for that case to prevent your program from crashing.
+
+
+Rank of a matrix: Amount of information system is carrying./ Rank of corresponding system of equations.
+Compressing images--reducing rank
+
+There's a special relationship between the rank of a matrix and its solution space.  the solution space for each of these matrices is the set of solutions to the system of equations when the constants are 0.
+
+
+Find rank by doing row echelon form of matrix.
+
+
