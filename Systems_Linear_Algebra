@@ -112,6 +112,6 @@ Compressing images--reducing rank
 There's a special relationship between the rank of a matrix and its solution space.  the solution space for each of these matrices is the set of solutions to the system of equations when the constants are 0.
 
 
-Find rank by doing row echelon form of matrix.
+Find rank by doing row echelon form of matrix..
 
 
