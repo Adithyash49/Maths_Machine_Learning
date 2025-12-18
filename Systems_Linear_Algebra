@@ -33,3 +33,53 @@ Determinant of matrix (ad-bc)
 
 NumPy is the main package for scientific computing in Python. 
 It performs a wide variety of advanced mathematical operations with high efficiency.
+
+What is an "Object"?
+Think of an object as a container that holds two things:
+
+Data (Properties): Facts describing the object (like color, size, weight).
+Actions (Methods): Things the object can do (like run, open, save)
+
+NumPy provides an array object that is much faster and more compact than Python lists
+The array object in NumPy is called ndarray meaning 'n-dimensional array'.
+
+Numpy functions:
+np.array()
+np.arange()
+np.linspace()
+
+With 1-D arrays, where you can access their elements using a single index. A multidimensional array has more than one column. 
+Think of a multidimensional array as an excel sheet where each row/column represents a dimension.
+
+a=np.array([[1,2,3],[4,5,6]])
+np.reshape(a,(2,3))
+
+Dimension:
+Physical world: a dimension is a direction in which you can measure size.
+Math: a dimension is a variable required to describe a position. 
+It is often about "Degrees of Freedom"—how many different numbers do I need to tell you exactly where a point is?
+Programming: dimension" usually refers to the organization of data.
+
+0 Dimensions (Scalar)
+1 Dimension (1D Array / List)
+2 Dimensions (2D Array / Matrix)
+3 Dimensions (3D Array)
+
+If you hear a Data Scientist say, "This dataset has high dimensionality," they are usually talking about columns in a table.
+ndim counts how many indices you need to locate a single item.
+
+np.ndim : returns dimensions
+np.shape : returns dimension shape
+np.size: returns total number of elements
+
+Broadcasting, slicing, indexing
+Slicing gives you a sublist of elements that you specify from the array. 
+
+ Note that a == a[:] == a[::]
+
+ `np.empty()` outputs an uninitialized array, but `np.zeros()` outputs an initialized array of value zero.
+
+np.vstack() - stacks vertically
+np.hstack() - stacks horizontally
+np.hsplit() - splits an array into several smaller arrays
+
