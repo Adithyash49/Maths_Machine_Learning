@@ -120,3 +120,28 @@ Find rank by doing row echelon form of matrix..
 Gaussian elimination -Augmented matrix--solving system of equations
 
 
+Week 3 (Vector and linear transformation)
+
+Vector is tuple of numbes.Numbers of cordinates is the dimension.
+
+Vector norm: L1 and L2
+
+L1: sum of the absolute values of all components.
+L2 norm will be the square root of the sum of all the square components of the vector.
+
+
+vector can have different norms pointing in the same direction.
+
+
+Dot product, Two vectors are orthogonal if dot product is zero.
+The dot product between a vector and itself is precisely the norm squared, or the length of the vector squared.
+the sign of the dot product of a vector corresponds to being on one side or the other one of that perpendicular vector.
+
+
+the product of a matrix and a vector is nothing more than dot products stacked together.
+
+quantities * Price = Total (AX=B)
+
+Cross  product
+
+
