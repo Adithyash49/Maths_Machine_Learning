@@ -90,6 +90,7 @@ Evaluate the determinant of the matrix and examine the relationship between matr
 np.vstack() - stacks vertically
 np.hstack() - stacks horizontally
 np.hsplit() - splits an array into several smaller arrays
+np.dot(x,y)
 
 
 System of Linear Equations
@@ -142,6 +143,30 @@ the product of a matrix and a vector is nothing more than dot products stacked t
 
 quantities * Price = Total (AX=B)
 
-Cross  product
+Matrices as arrays of numbers that represent systems of linear equations
 
+Matrices:
+A linear transformation is a way to send each point in the plane into another point in the plane in a very structured way.
+
+Matrix into linear transformation
+linear transformation is simply defined as a change of coordinates
+
+Linear transformations into matrix
+look at where the two fundamental vectors 1, 0 and 0, 1 go, and those are your columns of the matrix.
+
+Vectors = points or directions
+Matrices = the tool to move or transform vectors
+Linear transformations = the “action” that matrices perform on vectors.
+
+
+Non singular , determinant non zero.
+
+Neural networks, one of the most successful and powerful machine learning models out there with numerous applications, 
+is based largely on matrices and matrix products.
+
+Tranformation
+A transformation is a function from one vector space to another that respects the underlying (linear) structure of each vector space. 
+
+A large number of basic geometric shapes is used in computer graphics. Such shapes (e.g. triangles, quadrilaterals) are defined by their vertexes (corners). 
+tLinear transformations are often used to generate complex shapes from the basic ones, through scaling, reflection, rotation, shearing etc. It provides opportunity to manipulate those shapes efficiently.
 
