@@ -118,7 +118,7 @@ Find rank by doing row echelon form of matrix..
 
 
 Gaussian elimination -Augmented matrix--solving system of equations
-
+Gaussian elimination offers a systematic approach to solving systems of linear equations by transforming an augmented matrix into row-echelon form, thereby enabling the determination of variables.
 
 Week 3 (Vector and linear transformation)
 
