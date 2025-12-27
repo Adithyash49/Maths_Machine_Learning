@@ -175,7 +175,13 @@ Week 4 (Eigen vector and determinant)
 
 The determinant of the matrix is the area of the image of the fundamental basis formed by the unit square on the left.
 
-Bases (Basis)
+Bases (Basis): A basis is a set of vectors that satisfies two conditions.
+The set must span a vector space and the vectors in that set must be linearly independent.
 
 The span of a set of vectors is simply the set of points that can be reached by walking
 in the direction of these vectors in any combination.
+
+The span of a set of vectors is the set of all vectors that can be formed by taking linear combinations of them.
+
+
+A basis is a minimal spanning set.
