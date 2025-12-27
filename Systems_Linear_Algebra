@@ -170,3 +170,12 @@ A transformation is a function from one vector space to another that respects th
 A large number of basic geometric shapes is used in computer graphics. Such shapes (e.g. triangles, quadrilaterals) are defined by their vertexes (corners). 
 tLinear transformations are often used to generate complex shapes from the basic ones, through scaling, reflection, rotation, shearing etc. It provides opportunity to manipulate those shapes efficiently.
 
+Week 4 (Eigen vector and determinant)
+
+
+The determinant of the matrix is the area of the image of the fundamental basis formed by the unit square on the left.
+
+Bases (Basis)
+
+The span of a set of vectors is simply the set of points that can be reached by walking
+in the direction of these vectors in any combination.
